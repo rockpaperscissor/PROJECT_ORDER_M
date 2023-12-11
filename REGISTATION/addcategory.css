@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+html,body{
+
+    width: 100%;
+    height: 100%;
+
+
+
+}
+.addcategorydiv{
+    min-height: 100vh;
+    /* background-color: rgba(255, 0, 0, 0.259); */
+    position: relative;
+    width: 100%;
+    background-color: purple;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.addcategoryheaddiv{
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    border-bottom-left-radius: 50px 100px;
+    border-bottom-right-radius: 50px 100px;
+    display: flex;
+    align-items:flex-end ;
+    
+
+}
+.addcategoryheaddiv h3{
+    padding: 25px;
+
+}
+.addcategorypagediv{
+    height: calc(100vh - 100px);
+    width:100%;
+    border: 1px solid black;
+    
+}
+.addcategorypagediv .category{
+    margin:20px;
+    padding: 20px;
+    background-color: #dadada;
+    height: 100%;
+}
+.addcategorypagediv .category .cover{
+    height: 40%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+.addcategorypagediv .category .cover .images{
+    border: 1px solid black;
+    width: 300px;
+
+}
+.addcategorypagediv .category .cover .images .btn{
+   position: relative;
+   margin-top: 200px;
+   margin-left: 50px;
+   display: flex;
+   gap: 40px;
+   
+  
+
+}
+.addcategorypagediv .category .cover .addveg{
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
